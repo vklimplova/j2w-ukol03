@@ -35,7 +35,7 @@ Počítej s tím, že *jméno* a *firma* budou vždy uvedené, stejně jako dva 
    náměstí tedy předej property `celaAdresa` (pozor na to, že už nyní je statický string vložený v interpolaci `${…}`, tu už tedy do šablony nepřidáváš).
 1. Zkontroluj výsledek v prohlížeči.
 1. *Commitni* a *pushnni* změny (výsledný kód) do svého repository na GitHubu.
-1. Vlož odkaz na své repository do tabulky s úkoly na Google Drive.
+1. Vlož odkaz na své repository do formuláře pro odevzdání úkolu na [https://moje.czechitas.cz].
 
 ### Odkazy
 
