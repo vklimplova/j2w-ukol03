@@ -39,7 +39,7 @@ Počítej s tím, že *jméno* a *firma* budou vždy uvedené, stejně jako dva 
 
 ### Odkazy
 
-* odkaz na stránku [Lekce 4](https://java.czechitas.cz/2022-podzim/java-2-online/lekce-4.html)
+* odkaz na stránku [Lekce 4](https://java.czechitas.cz/2023-podzim/java-2-online/lekce-4.html)
 * Java SE 17 [Javadoc](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/) – dokumentace všech tříd, které jsou součástí základní Javy ve verzi 17.
 * Dokumentace [Spring Boot](https://spring.io/projects/spring-boot#learn) – odsud je anotace `@SpringBootApplication` a třída `SpringApplication`.
 * Dokumentace [Spring Framework](https://spring.io/projects/spring-framework#learn) – odsud jsou anotace `@Controller`, `@GetRequest` a třída `ModelAndView`.
