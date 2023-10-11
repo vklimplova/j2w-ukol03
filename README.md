@@ -22,7 +22,7 @@ Počítej s tím, že *jméno* a *firma* budou vždy uvedené, stejně jako dva 
    * `email`
    * `telefon`
    * `web`
-1. Vytvoř v této entitě bezparametrický konstruktor a konstruktor obsahující všechny properties.
+1. Vytvoř v této entitě bezparametrický konstruktor a konstruktor obsahující všechny properties s uloženo uhodnotou (tj. bez počítané property `celaAdresa`).
 1. Vytvoř si v kontroleru `VizitkaController` privátní field, který bude obsahovat seznam vizitek (`List<Vizitka>`) a naplň seznam nějakými údaji. Nezapomeň
    vytvořit i takové vizitky, které nebudou mít uvedené všechny kontakty.   
 1. Uprav metodu `seznam()` tak, aby vracela `ModelAndView`. Zvol správné view a do modelu vlož seznam vizitek.
