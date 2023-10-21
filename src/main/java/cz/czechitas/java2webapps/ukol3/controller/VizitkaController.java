@@ -17,8 +17,8 @@ public class VizitkaController {
 
   private final List<Vizitka> seznamVizitek = List.of(
          new Vizitka("Tomáš Kusý","SK Joudrs Praha","Dolákova 1","Praha, 181 00","kusy@joudrs.cz","+420 123 345 789","joudrs.cz"),
-          new Vizitka("Karolína Dvořáková","Kačenky","Jiřího z Poděbrad 12","České Budějovice, 123 00", null, null, "kacka.cz"),
-          new Vizitka("Veronika Klimplová","Inservis","Lodžská 17","Praha, 181 00", "veruklimpl@seznam.cz","+420 987 654 321", null)
+          new Vizitka("Karolína Dvořáková","Kačenky","Laubova 2","Praha, 130 00", null, null, "kacka.cz"),
+          new Vizitka("Veronika Klimplová","Inservis","Ratibořská 32","Praha, 181 00", "veruklimpl@seznam.cz","+420 987 654 321", null)
   );
 
   @GetMapping("/")

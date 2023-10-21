@@ -15,9 +15,15 @@
                 <div>${detail.obecPsc}</div>
             </div>
             <div class="kontakty">
+                [#if detail.email??]
                 <div><i class="las la-at"></i> <span>${detail.email}</span></div>
-                <div><i class="las la-phone-alt"></i> <span>${detail.telefon}</span></div>
-                <div><i class="las la-globe"></i> <span>${detail.web}</span></div>
+                [/#if]
+                [#if detail.telefon??]
+                    <div><i class="las la-at"></i> <span>${detail.telefon}</span></div>
+                [/#if]
+                [#if detail.web??]
+                    <div><i class="las la-at"></i> <span>${detail.web}</span></div>
+                [/#if]
             </div>
         </div>
     </div>
